@@ -1,7 +1,7 @@
 public class Livro {
     private String titulo;
     private String autor;
-    private String isbn;
+    private int isbn;
 
     public String getTitulo() {
         return titulo;
@@ -19,11 +19,11 @@ public class Livro {
         this.autor = autor;
     }
 
-    public String getIsbn() {
+    public Integer getIsbn() {
         return isbn;
     }
 
-    public void setIsbn(String isbn) {
+    public void setIsbn(Integer isbn) {
         this.isbn = isbn;
     }
 }
