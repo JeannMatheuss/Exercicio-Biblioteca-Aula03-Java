@@ -4,8 +4,8 @@ public class Main {
 
         livro.setTitulo("Harry Potter");
         livro.setAutor("J. K. Rowling");
-        livro.setIsbn(9788532511010);
 
         System.out.println(livro.getTitulo());
+        System.out.println(livro.getAutor());
     }
 }
